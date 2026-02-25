@@ -1,0 +1,37 @@
+#built in functions = code instructions that are built-in
+# to the programming language.
+#usually locked away behind a keyword
+
+#print is a built in function that lets us printout data
+#in the terminal
+print("Keshawn White")
+
+message = "this is a message I wrote with Python."
+
+print(message)
+
+# input() is a built in function that allows us to
+# type in (put in) data through the terminal. to use
+# input it must be ASSIGNED to the variable
+
+name = input("please type your name: ")
+print(name)
+
+# Data-casting Built in Functions (Data Conversion)
+# Data-casting are functions that allow us to change data types
+
+#str() - this built in function will change whatever is in the round brackets
+#into a string.
+
+number = 100
+print(type(number)) # class int = integer
+print(type(str(number)) # class str = string
+
+#int() - this built in function will change whatever that is in the green brackets into
+# a integer (whole number)
+
+number = "100"
+print(type(number)) # class str = string
+print(type(str(number)) # class int = integer
+
+#float()
