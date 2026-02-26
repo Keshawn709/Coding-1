@@ -25,13 +25,27 @@ print(name)
 
 number = 100
 print(type(number)) # class int = integer
-print(type(str(number)) # class str = string
+print(type(str(number)))# class str = string
 
-#int() - this built in function will change whatever that is in the green brackets into
+#int() - this built in function will change whatever that is in the round brackets into
 # a integer (whole number)
 
 number = "100"
 print(type(number)) # class str = string
-print(type(str(number)) # class int = integer
+print(type(str(number)))# class int = integer
 
-#float()
+#float() it's just a decimal. ex - 10 would turn into 10.0
+# change whatever is in the round brackets into a decimal.
+
+#bool(l) - this will change whatever is in the round brackets into a boolean (true/false) value.
+
+number = 100
+print(type(number)) # class int = integer
+print(type(bool(number))) # class int = integer --> True
+
+answer = input("please type in a number") #input ALWAYS takes in data as string
+
+#print(4 * int(answer))
+
+order = 30
+print("Hey Tom, we need to order '+ str(order) +'of pencils")
