@@ -1,15 +1,22 @@
-input("16"(str(16)))
-print(16)
+# 1 
+input(type("16")) #--> this will give...string
+#type = shows you what data type the thing is
 
-print("score"(str(85)))
+print(int("16")) # int() --> anything passed in here will transform into an integer
 
-print("flout"(19.99))
+# 2
+print(str(85))
 
-num1 = input("4")
-num2 = input("5")
-print("20")
+# 3
+#19.99 is already a float.
 
-cost = 120.00
-print('It will cost' +cost(120.00)+ 'dollars to get everyone lunch')
+# 4
+num1 = input(4)
+num2 = input(5)
+print(int(4) * int(5))
 
-print("100 + 4")
+# 5
+print('It will cost' +str(120.00)+ 'dollars to get everyone lunch')
+
+# 6
+print(int("100") + int(4))
