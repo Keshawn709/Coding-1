@@ -17,7 +17,7 @@ inSchool = True
 # when you run code using comparisons it'll return as true or false
 
 print(10 < 2)
-print(10 == 10) # 2 EQUAL SIGNS MEAN AS
+print(10 == 10) # 2 EQUAL SIGNS MEAN SAME
 print(10 != 2) # NOT THE SAME
 print(9 >= 1) # greater/less than OR EQUAL
 
