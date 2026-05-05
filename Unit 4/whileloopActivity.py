@@ -14,10 +14,10 @@
 # My Own Work
 myPassword = "keshawn132"
 
-def myPassword ():
-    myPassword = input("what is your password?")
-    while myPassword != "keshawn132":
-        if myPassword == "keshawn132":
-            print("Congrats! You have access!")
-        else:
+def passwordLoop():
+    myPassword = "keshawn132"
+    userPassword = input("what is your password?")
+    while myPassword != userPassword:
             print("Please try again.")
+            if myPassword == myPassword:
+                print("Congrats! You have access!")
